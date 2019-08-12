@@ -1,0 +1,9 @@
+2019-08-09 07:54:16.874  INFO 26132 --- [elasticsearch[_client_][generic][T#1]] o.e.c.t.TransportClientNodesService      : failed to get node info for {#transport#-1}{0z5TzHwhRem_n9dkpRE7SQ}{localhost}{127.0.0.1:9300}, disconnecting...
+
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:9300][cluster:monitor/nodes/liveness] request_id [41529] timed out after [5125ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:981) ~[elasticsearch-6.4.3.jar:6.4.3]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:624) [elasticsearch-6.4.3.jar:6.4.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+

@@ -1,0 +1,7 @@
+com\javatechie\es\api\model\Customer.class
+com\javatechie\es\api\SpringBootElasticserachExampleApplication.class
+com\javatechie\es\api\repository\CustomerRepository.class
+com\javatechie\es\api\PracticeResource.class
+com\javatechie\es\api\model\Practice.class
+com\javatechie\es\api\CustomerResource.class
+com\javatechie\es\api\repository\PracticeRepository.class
